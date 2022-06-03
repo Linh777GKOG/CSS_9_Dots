@@ -9,5 +9,11 @@
   </head>
   <body>
     <div class="navigation"></div>
+    <script>
+      let navigation = document.querySelector(".navigation");
+      navigation.onclick = function () {
+        navigation.classList.toggle("active");
+      };
+    </script>
   </body>
 </html>
