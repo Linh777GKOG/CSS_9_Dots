@@ -23,11 +23,13 @@ body {
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+  transition-delay: 0.8s;
 }
 
 .navigation.active {
   width: 200px;
   height: 200px;
+  transition-delay: 0s;
 }
 
 .navigation span {
