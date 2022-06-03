@@ -19,4 +19,17 @@ body {
   background: #212532;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.navigation.active {
+  width: 200px;
+  height: 200px;
+}
+
+.navigation span {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: #fff;
 }
