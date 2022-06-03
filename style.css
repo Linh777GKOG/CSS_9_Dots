@@ -53,7 +53,12 @@ body {
   transform: translate(calc(60px * var(--x)), calc(60px * var(--y)));
 }
 
-.navigation.active span icon-icon {
+.navigation.active span ion-icon {
   transition: 0.5s;
   font-size: 0em;
+}
+
+.navigation.active span ion-icon {
+  font-size: 1.35em;
+  color: #fff;
 }
