@@ -52,3 +52,8 @@ body {
   background: #333849;
   transform: translate(calc(60px * var(--x)), calc(60px * var(--y)));
 }
+
+.navigation.active span icon-icon {
+  transition: 0.5s;
+  font-size: 0em;
+}
